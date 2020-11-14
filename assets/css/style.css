@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --primary-color: rgb(43, 20, 70);
+  --primary-color-darker: rgb(22, 9, 37);
+  --success-color: rgb(80, 177, 112);
+  --error-color: rgb(206, 71, 71);
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background:#fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 2px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.result-success {
+  background: var(--success-color);
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 10px; 
+  border-radius: 10px;
+}
+
+.result-error {
+  background: var(--error-color);
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 10px; 
+  border-radius: 10px;
+}

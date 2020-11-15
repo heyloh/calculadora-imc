@@ -9,6 +9,7 @@
   <img src="./assets/img/invalid_height.png" width="300px">
   <img src="./assets/img/invalid_weight.png" width="300px">
 </p>
+
 #### O que fiz?
 - Validação de Input
 - Exibição de Erros

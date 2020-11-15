@@ -1,4 +1,4 @@
-# Calcule seu IMC
+# [Calcule seu IMC](https://heyloh.github.io/calculadora-imc/)
 🔢 Projeto simples de uma calculadora de IMC utilizando HTML, CSS e JavaScript.
 
 <p align="center">

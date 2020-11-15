@@ -20,7 +20,7 @@ function main() {
       return;
     }
     
-    const imc = peso / Math.pow(altura, 2);
+    const imc = (peso / Math.pow(altura, 2)).toFixed(2);
 
     const imcMsg = handleGetImcMsg(imc);
 
